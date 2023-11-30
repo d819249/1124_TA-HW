@@ -7,41 +7,44 @@
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>1124TA_HW</title>
     <style type="text/css">
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
         .kv {
-            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             height: 98vh;
             background-image: url(https://www.popdaily.com.tw/wp-content/uploads/2021/01/c9reot99r5wgw0kg480cgkow0qmlyik-1000x562.jpg);
             background-size: cover;
-            /* Resize should be added here */
-            display: flex;
-            justify-content: center;
-            align-items: center;
         }
 
         .kv .text {
             text-align: center;
-            position: absolute;
+            color: white;
         }
 
         .kv .text h1 {
-            color: #FF5733; /* Change font color to orange */
             font-weight: bold;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 36px; /* Change font size */
-            letter-spacing: 3px; /* Add letter spacing */
-            text-decoration: underline; /* Add underline */
+            font-size: 36px;
+            letter-spacing: 3px;
+            text-decoration: underline;
         }
 
         .kv .text p {
             color: yellow;
             font-size: 20px;
+            line-height: 1.5; /* Adjust line height for better spacing */
         }
     </style>
 </head>
 <body>
    <div class="kv">
     <div class="container">
-        <div class="row justify-content-center d-flex align-items-center">
+        <div class="row justify-content-center">
             <div class="col">
                 <div class="text">
                     <h1>Intro to CS</h1>
